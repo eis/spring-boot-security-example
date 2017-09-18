@@ -33,7 +33,7 @@
     <div class="starter-template">
         <h1>Spring Boot Web Thymeleaf Example</h1>
         <h2>
-            <span th:text="'Hello, admin!'"></span>
+            <span th:text="'Greetings, ' + ${#httpServletRequest.getRemoteUser()} + '!'"></span>
         </h2>
     </div>
 
