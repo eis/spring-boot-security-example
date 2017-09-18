@@ -30,6 +30,8 @@ public class HelloMVCController {
     public String admin() {
         return "admin";
     }
+
+    // https://stackoverflow.com/a/43178206/365237
     @RequestMapping(value = "/login/logout", method = RequestMethod.GET)
     public String logoutPage (HttpServletRequest request, HttpServletResponse response) {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
