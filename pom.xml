@@ -105,6 +105,13 @@
             <artifactId>robotframework-selenium2library-java</artifactId>
             <version>1.4.0.7</version>
             <scope>test</scope>
+            <!-- http://stackoverflow.com/questions/8375423/missing-artifact-com-suntoolsjar -->
+            <exclusions>
+                <exclusion>
+                    <artifactId>tools</artifactId>
+                    <groupId>com.sun</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <!-- below for rest-assured -->
