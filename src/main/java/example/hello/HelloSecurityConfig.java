@@ -28,7 +28,7 @@ public class HelloSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
         auth.inMemoryAuthentication()
-            .withUser("admin").password("123456").roles(ADMIN)
-            .and().withUser("user").password( "password").roles(USER);
+            .withUser("admin").password("{noop}123456").roles(ADMIN)
+            .and().withUser("user").password("{noop}password").roles(USER);
     }
 }
