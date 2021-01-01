@@ -107,38 +107,6 @@
             </exclusions>
         </dependency>
 
-        <!-- below for rest-assured -->
-        <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>rest-assured</artifactId>
-            <version>3.0.0</version>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>spring-mock-mvc</artifactId>
-            <version>3.0.0</version>
-            <scope>test</scope>
-        </dependency>
-        <!-- Spring-test uses jsonassert dependency for json() -->
-        <dependency>
-            <groupId>org.skyscreamer</groupId>
-            <artifactId>jsonassert</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <!-- Spring-test uses jsonpath for jsonPath() -->
-        <dependency>
-            <groupId>com.jayway.jsonpath</groupId>
-            <artifactId>json-path</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.jayway.jsonpath</groupId>
-            <artifactId>json-path-assert</artifactId>
-            <scope>test</scope>
-        </dependency>
-
         <!-- fluent assertions -->
         <dependency>
             <groupId>org.assertj</groupId>
@@ -151,7 +119,6 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <groovy.version>2.4.6</groovy.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
