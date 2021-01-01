@@ -1,6 +1,7 @@
 Simple Spring Boot security example
 ===================================
 
+<a href="https://travis-ci.org/eis/spring-boot-security-example" title="Build Status"><img src="https://api.travis-ci.org/eis/spring-boot-security-example.svg?branch=mvc"></a>
 
 Answers to [http://localhost:8080/login](http://localhost:8080/login). Login is admin/123456.
 
