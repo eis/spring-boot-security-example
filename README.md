@@ -2,7 +2,7 @@ Simple Spring Boot security example
 ===================================
 
 <a href="https://travis-ci.org/eis/spring-boot-security-example" title="Build Status"><img src="https://api.travis-ci.org/eis/spring-boot-security-example.svg"></a>
-<a href="https://coveralls.io/github/eis/spring-boot-security-example?branch=mvc" title="Coverage Status"><img src="http://img.shields.io/coveralls/eis/spring-boot-security-example/master.svg"></a>
+<a href="https://coveralls.io/github/eis/spring-boot-security-example" title="Coverage Status"><img src="http://img.shields.io/coveralls/eis/spring-boot-security-example/master.svg"></a>
 
 Answers to [http://localhost:8080/login](http://localhost:8080/login).
 
